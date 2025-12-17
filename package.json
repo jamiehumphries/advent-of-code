@@ -1,0 +1,20 @@
+{
+  "name": "advent-of-code",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "prettier": {
+    "plugins": [
+      "prettier-plugin-packagejson",
+      "prettier-plugin-organize-imports"
+    ]
+  },
+  "devDependencies": {
+    "prettier": "3.7.4",
+    "prettier-plugin-organize-imports": "4.3.0",
+    "prettier-plugin-packagejson": "2.5.20"
+  }
+}
